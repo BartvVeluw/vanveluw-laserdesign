@@ -1,0 +1,21 @@
+:root {
+  --font-body: "Open Sans", system-ui, sans-serif;
+  --font-display: Montserrat, system-ui, sans-serif;
+}
+body {
+  font-family: var(--font-body);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-50 text-neutral-900;
+}
