@@ -42,12 +42,12 @@ export default function Header() {
           </a>
         </nav>
         <div className="flex items-center gap-2">
-          <a
+          {/* <a
             href="/#contact"
             className="rounded-xl border border-neutral-300 px-3 py-2 text-sm font-medium hover:bg-neutral-50"
           >
             Offerte
-          </a>
+          </a> */}
           <Link
             to="/producten"
             className="rounded-xl bg-yellow-500 px-3 py-2 text-sm font-semibold text-neutral-900 shadow hover:bg-yellow-400"

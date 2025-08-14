@@ -20,7 +20,7 @@ function ScrollToTop() {
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-[conic-gradient(at_100%_0%,#fafafa,white_30%,#f6f6f6_60%,white)] text-neutral-900">
+    <div className="min-h-screen bg-site-gradient text-coal-900">
       <Header />
       <ScrollToTop />
       <Routes>

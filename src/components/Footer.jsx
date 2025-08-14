@@ -6,11 +6,12 @@ export default function Footer() {
           © {new Date().getFullYear()} Van Veluw Laserdesign
         </div>
         <div className="flex items-center gap-4 text-sm">
-          <a href="#" className="hover:opacity-70">
+          <a
+            href="https://www.instagram.com/van_veluw_laserdesign/"
+            target="_blank"
+            className="hover:opacity-70"
+          >
             Instagram
-          </a>
-          <a href="#" className="hover:opacity-70">
-            Facebook
           </a>
           <a href="#" className="hover:opacity-70">
             KVK & info

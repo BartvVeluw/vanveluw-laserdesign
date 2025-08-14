@@ -9,48 +9,29 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section id="home" className="relative">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 py-10 md:grid-cols-2 md:py-16">
+      {/* Hero */}
+      <section id="home" className="relative section">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-8 px-4 md:grid-cols-2">
           <div>
-            <AccentBadge>Lasergraveren & -snijden</AccentBadge>
+            <span className="badge">Lasergraveren & -snijden</span>
             <h1 className="mt-3 text-3xl font-semibold leading-tight md:text-5xl">
               Unieke lasercreaties — van idee tot afgewerkt product
             </h1>
-            <p className="mt-3 text-base leading-relaxed text-neutral-700 md:text-lg">
+            <p className="mt-3 text-base leading-relaxed text-coal-600 md:text-lg">
               Layered wood art, gepersonaliseerde glazen, signage en
               relatiegeschenken. Kleine oplage of maatwerk? Geen probleem.
             </p>
             <div className="mt-5 flex flex-wrap items-center gap-3">
-              <Link
-                to="/producten"
-                className="rounded-xl bg-neutral-900 px-4 py-2.5 text-sm font-semibold text-white shadow hover:opacity-90"
-              >
+              <Link to="/producten" className="btn btn-dark">
                 Ontdek categorieën
               </Link>
-              <a
-                href="#contact"
-                className="rounded-xl border border-neutral-300 px-4 py-2.5 text-sm font-medium hover:bg-neutral-50"
-              >
+              <a href="#contact" className="btn btn-secondary">
                 Vraag een offerte aan
               </a>
             </div>
-            <div className="mt-6 flex items-center gap-6 text-sm text-neutral-600">
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-green-500" />
-                Snelle levertijd
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-yellow-500" />
-                Gratis bestandscheck
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="h-2 w-2 rounded-full bg-blue-500" />
-                Zakelijk & particulier
-              </div>
-            </div>
           </div>
           <div className="relative">
-            <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-yellow-500/10 blur-2xl" />
+            <div className="absolute -inset-4 -z-10 rounded-[2rem] bg-brass-100 blur-2xl" />
             <ImagePlaceholder label="Hero productfoto" ratio="pt-[100%]" />
           </div>
         </div>
