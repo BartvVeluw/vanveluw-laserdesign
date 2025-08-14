@@ -25,9 +25,9 @@ export default function Home() {
               <Link to="/producten" className="btn btn-dark">
                 Ontdek categorieën
               </Link>
-              <a href="#contact" className="btn btn-secondary">
+              {/* <a href="#contact" className="btn btn-secondary">
                 Vraag een offerte aan
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="relative">

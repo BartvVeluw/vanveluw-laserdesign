@@ -3,7 +3,7 @@ import AccentBadge from "./AccentBadge";
 
 export default function CategoryCard({ title, blurb, cta = "Bekijken" }) {
   return (
-    <div className="group rounded-2xl border border-neutral-200/60 bg-white p-4 shadow-sm transition hover:shadow-md">
+    <div className="card group rounded-2xl border border-neutral-200/60 bg-white p-4 shadow-sm transition hover:shadow-md">
       <ImagePlaceholder label={title} ratio="pt-[66%]" />
       <div className="mt-3 flex items-start justify-between gap-3">
         <h3 className="text-base font-medium">{title}</h3>
